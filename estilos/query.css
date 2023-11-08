@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 768px) and (max-width: 992px){
     section#login{
         width: 90vw;
@@ -15,6 +17,20 @@
         float: right;
         width: 70%;
     }
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        color: black;
+        width: 50%;
+        height: 40px;
+        background-color: #015958;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;
+        color: white;
+        
+    }
+
 }
 @media screen and (min-width: 992px) {
     section#login{
@@ -32,4 +48,6 @@
         float: right;
         width: 50%;
     }
+   
+
 }
