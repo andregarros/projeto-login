@@ -48,7 +48,7 @@ section#login > #formulario{
     text-align: center;
 }
 .campo{
-    
+    padding: 10px;
     
 }
 
@@ -61,6 +61,7 @@ section#login > #formulario{
     width: 100%;
     gap: 10px;
     height: 43px;
+    
    
 }
 .dados > input[type=email], .dados > input[type=password]{
