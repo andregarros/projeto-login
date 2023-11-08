@@ -40,6 +40,7 @@ main{
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
+    border-radius: 10px;
  }
 section#login > #formulario{
     padding: 10px;
@@ -48,7 +49,8 @@ section#login > #formulario{
     text-align: center;
 }
 .campo{
-    padding: 10px;
+    padding: 0px 10px;
+    
     
 }
 
@@ -90,6 +92,7 @@ form > input[type=submit] {
     color: white;
     cursor: pointer;
     
+    
 }
 form > input[type=submit]:hover {
     background-color:#042940 ;
@@ -106,6 +109,7 @@ form > a.botao{
     margin-top: 5px;
     color: #015958;
     cursor: pointer;
+    
 }
 form > a.botao > i{
     
